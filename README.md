@@ -1,4 +1,4 @@
-# LivebookDalle
+# KinoDalle
 
 **TODO: Add description**
 

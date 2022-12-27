@@ -1,15 +1,15 @@
-defmodule LivebookDalle.MixProject do
+defmodule KinoDalle.MixProject do
   use Mix.Project
 
-  @version "0.1.4"
+  @version "0.1.0"
   @description "DALL-E integration for Livebook"
 
   def project do
     [
-      app: :dalle,
+      app: :kino_dalle,
       version: @version,
       description: @description,
-      name: "LivebookDalle",
+      name: "KinoDalle",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -19,14 +19,14 @@ defmodule LivebookDalle.MixProject do
 
   def application do
     [
-      mod: {LivebookDalle.Application, []}
+      mod: {KinoDalle.Application, []}
     ]
   end
 
   defp deps do
     [
       {:kino, "~> 0.8"},
-      {:ex_doc, "~> 0.29", only: :dev, runtime: false}
+      {:req, "~> 0.3"}
     ]
   end
 

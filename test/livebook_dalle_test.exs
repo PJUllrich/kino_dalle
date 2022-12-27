@@ -1,8 +1,8 @@
-defmodule LivebookDalleTest do
+defmodule KinoDalleTest do
   use ExUnit.Case
-  doctest LivebookDalle
+  doctest KinoDalle
 
   test "greets the world" do
-    assert LivebookDalle.hello() == :world
+    assert KinoDalle.hello() == :world
   end
 end
