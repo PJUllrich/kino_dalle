@@ -24,3 +24,11 @@ Mix.install([
 2. Click `Evaluate` above the Smart Cell.
 3. Enter your prompt and hit `Run`.
 
+## Attribution
+
+This project built upon the brilliant work from two other smart cell repositories:
+
+1. [Kino Advent of Code (KinoAOC)](https://github.com/ljgago/kino_aoc)
+2. [Kino Bumblebee](https://github.com/livebook-dev/kino_bumblebee)
+
+Thanks a million to the authors from these repositories. I tried to honor your work as much as possible, but if you feel uncomfortable with this project, please please reach out to me through any of the channels mentioned on [peterullrich.com](https://www.peterullrich.com) and let's talk about it.
