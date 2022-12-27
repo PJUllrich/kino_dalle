@@ -1,21 +1,26 @@
 # KinoDalle
 
-**TODO: Add description**
+A Livebook integration for OpenAI's `DALL-E v2`.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `livebook_dalle` to your list of dependencies in `mix.exs`:
+Create a Livebook and add the following dependency:
 
 ```elixir
-def deps do
-  [
-    {:livebook_dalle, "~> 0.1.0"}
-  ]
-end
+Mix.install([
+  {:kino_dalle, github: "PJUllrich/kino_dalle"}
+])
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/livebook_dalle>.
+## Signup to OpenAI
+
+1. Create an account with OpenAI [here](). You'll get plenty of free credits to get started.
+2. Create an API Key [here](https://beta.openai.com/account/api-keys)
+3. Open your Livebook, create a `DALL-E Cell` Smart cell.
+4. Click on the `API Key` field and enter your OpenAI API Key
+
+## Usage
+1. Select the desired image size and the number of images you'd like to generate.
+2. Click `Evaluate` above the Smart Cell.
+3. Enter your prompt and hit `Run`.
 
