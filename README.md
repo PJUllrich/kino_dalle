@@ -2,6 +2,8 @@
 
 A Livebook integration for OpenAI's `DALL-E v2`.
 
+![](screenshot.jpeg)
+
 ## Installation
 
 Create a Livebook and add the following dependency:
