@@ -16,7 +16,7 @@ Mix.install([
 
 ## Signup to OpenAI
 
-1. Create an account with OpenAI [here](). You'll get plenty of free credits to get started.
+1. Create an account with OpenAI [here](https://openai.com/api/). You'll get plenty of free credits to get started.
 2. Create an API Key [here](https://beta.openai.com/account/api-keys)
 3. Open your Livebook, create a `DALL-E Cell` Smart cell.
 4. Click on the `API Key` field and enter your OpenAI API Key
